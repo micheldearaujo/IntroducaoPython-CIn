@@ -5,12 +5,12 @@ Este programa é um sistema de registro de restaurantes em banco de dados. Nele 
 
 #### Requeriments
 
-pip install matplotlib
+$ pip install matplotlib
 
 
 ## Utilização
 
-python main.py
+$ python main.py
 
 <p align="center">
-<img width="692" height="401" src="menu.jpeg">
+<img width="480" height="320" src="menu.jpeg">
