@@ -5,9 +5,10 @@ Banco de dados para armazenamento e cadastro e restaurantes
 created at  Sep 24 2021 11:19
 """
 
+# Biblioteca para transformar uma string que está no formato de dicionário em um objeto dicionário
 import ast
 import matplotlib.pyplot as plt
-import numpy as np
+
 
 # Configurando constantes
 arquivo = "./restaurantes.txt"
@@ -32,7 +33,6 @@ restaurantes = {
         "cozinhas": ["chinesa", "italiana", "hamburguer"]
         }    
 }
-
 
 def menu():
     opcao = int(input("""
@@ -439,7 +439,6 @@ def dashBoard():
         
         # Transformando o set de volta numa lista
         comidas = list(comidas)
-        print(comidas)
 
         # Plotando os tipos de comidas
         bubble_sizes = [size*400 for size in frequencias]
