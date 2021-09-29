@@ -13,4 +13,4 @@ $ pip install matplotlib
 $ python main.py
 
 <p align="center">
-<img width="692" height="401" src="menu.jpeg">
+<img width="480" height="320" src="menu.jpeg">
